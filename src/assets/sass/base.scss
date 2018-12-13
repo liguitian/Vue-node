@@ -1,0 +1,8 @@
+/*初始化样式*/
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+ol,ul{list-style:none;}
+/*将px转换rem单位*/
+@function rem($px){
+	@return $px /75px*1rem;
+}
