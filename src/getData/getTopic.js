@@ -26,5 +26,5 @@ return $http.get('/topic/'+id)
 }
 
 
-// 暴露方法
+// 暴露请求数据的方法
 export {getTopic,getInfo}
